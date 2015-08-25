@@ -1,4 +1,4 @@
-# Kohana Cooie law module
+# Kohana Cookie law module
 A simple Kohana [Cookie law](http://www.cookielaw.org/the-cookie-law/) module.
 
 ## Usage
