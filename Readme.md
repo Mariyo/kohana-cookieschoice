@@ -6,7 +6,7 @@ Add module to your application modules in **bootstrap.php**:
 
 ```php
 Kohana::modules(array(
-	'cookieschoice' => VENPATH . 'mariyo/kohana-cookieschoice',
+	'cookieschoice' => DOCROOT . 'vendor/mariyo/kohana-cookieschoice',
 ));
 ```
 
