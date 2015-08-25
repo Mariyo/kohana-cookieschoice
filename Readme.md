@@ -2,7 +2,15 @@
 A simple Kohana [Cookie law](http://www.cookielaw.org/the-cookie-law/) module.
 
 ## Usage
+Add module to your application modules in **bootstrap.php**:
 
+```php
+Kohana::modules(array(
+	'cookieschoice' => VENPATH . 'mariyo/kohana-cookieschoice',
+));
+```
+
+and in your template call method **render**:
 ```php
 Cookieschoice::render('default');
 ```
