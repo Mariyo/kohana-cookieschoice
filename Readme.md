@@ -1,11 +1,10 @@
-# Kohana Elasticsearch module
-A simple Kohana [Elasticsearch](http://www.elasticsearch.org/) module.
+# Kohana Cooie law module
+A simple Kohana [Cookie law](http://www.cookielaw.org/the-cookie-law/) module.
 
 ## Usage
 
 ```php
-$elasticsearch = Elasticsearch::instance('custom_index');
-$elasticsearch->add('my_type', 1, array('value' => 'My value'));
+Cookieschoice::render('default');
 ```
 
 ## Installation
